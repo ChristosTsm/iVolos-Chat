@@ -1,5 +1,7 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
+const tintColorLight = '#37b3ab';
+const tintColorDark = '#ee1174';
+const indicatorColorDark = '#f179af';
+const indicatorColorLight = '#39e3ef';
 
 export default {
   light: {
@@ -8,6 +10,7 @@ export default {
     tint: tintColorLight,
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorLight,
+    indicatorColor: indicatorColorLight
   },
   dark: {
     text: '#fff',
@@ -15,5 +18,6 @@ export default {
     tint: tintColorDark,
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorDark,
+    indicatorColor: indicatorColorDark
   },
 };
